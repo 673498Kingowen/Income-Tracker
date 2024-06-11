@@ -1,6 +1,9 @@
 package Interface;
 import java.util.List;
 
+import impl.ExpenseItem;
+import impl.IncomeItem;
+
 public interface ExpenseTrackerInterface {
     void addExpense(String description, double amount);
     void removeExpense(int expenseId);
