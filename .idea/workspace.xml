@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="84f67937-8ead-4b5a-b0d2-118fd0bf66a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Income-Tracker.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interface/ExpenseTrackerInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Meny/ExpenseMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Meny/ExpenseTracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Meny/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/impl/ExpenseItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/impl/IncomeItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interface/ExpenseTrackerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interface/ExpenseTrackerInterface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +37,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -65,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718113373141</updated>
-      <workItem from="1718113374165" duration="654000" />
+      <workItem from="1718113374165" duration="1524000" />
     </task>
     <servers />
   </component>
