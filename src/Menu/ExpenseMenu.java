@@ -1,4 +1,4 @@
-package Meny;
+package Menu;
 
 public class ExpenseMenu {
 
