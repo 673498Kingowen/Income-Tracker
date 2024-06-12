@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="84f67937-8ead-4b5a-b0d2-118fd0bf66a9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface/ExpenseTrackerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interface/ExpenseTrackerInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Menu/ExpenseTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/ExpenseTracker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/impl/ExpenseItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/impl/ExpenseItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/impl/IncomeItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/impl/IncomeItem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1718113373141</updated>
       <workItem from="1718113374165" duration="1715000" />
-      <workItem from="1718133807558" duration="992000" />
+      <workItem from="1718133807558" duration="6174000" />
     </task>
     <servers />
   </component>
