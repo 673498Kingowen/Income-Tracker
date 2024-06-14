@@ -27,16 +27,53 @@ public abstract class ExpenseTracker implements ExpenseTrackerInterface{
     }
 
     public double getTotalExpenses() {
-        double total = 0;
+        double totalExpense = 0;
         for (ExpenseItem expense : expenses.values()) {
-            total += expense.getAmount();
+            totalExpense += expense.getAmount();
         }
-        return  total;
+        return  totalExpense;
     }
 
     public List<ExpenseItem> getAllExpenses() {
         return new ArrayList<>(expenses.values());
     }
 
-    
+    public void addIncome(String description, double amount) {
+        IncomeItem newIncome = new IncomeItem(nextIncomeId++, description, amount);
+        income.put(newIncome.getIncomeId(), newIncome);
+    }
+
+    public void removeIncome(int incomeId) {
+        income.remove(incomeId);
+    }
+
+    public double getTotalIncome() {
+        double totalIncome = 0;
+        for (IncomeItem Income : income.values()) {
+            totalIncome += Income.getAmount();
+        }
+        return  totalIncome;
+    }
+
+    public List<IncomeItem> getAllIncome() {
+       return new ArrayList<>(income.values());
+    }
+
+    public void sortExpensesByAmount() {
+
+    }
+
+    public void sortExpensesByDescription() {
+
+    }
+    public void sortIncomeByAmount(){
+
+    }
+    public void sortIncomeByDescription(){
+
+    }
+
+    public double getRemainingBalance(){
+        return;
+    }
 }
