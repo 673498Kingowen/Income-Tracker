@@ -60,7 +60,16 @@ public abstract class ExpenseTracker implements ExpenseTrackerInterface{
     }
 
     public void sortExpensesByAmount() {
-
+        // must fix
+        for (int i = 0; i < expenses.size(); i++) {
+            ExpenseItem current = expenses.get(i);
+            int j = i - 1;
+            while (j >= 0 && expenses.get(i).getAmount() < expenses.get(j).getAmount()) {
+                expenses.set(j + 1, expenses.get(j));
+                j--;
+            }
+            expenses.set(j + 1, current);
+        }
     }
 
     public void sortExpensesByDescription() {
