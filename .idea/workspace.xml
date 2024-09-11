@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="84f67937-8ead-4b5a-b0d2-118fd0bf66a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Gui/ExpenseMenuGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface/ExpenseTrackerInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interface/ExpenseTrackerInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu/ExpenseMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/ExpenseMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu/ExpenseTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/impl/ExpenseTracker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Menu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/impl/ExpenseItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/impl/ExpenseItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/impl/IncomeItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/impl/IncomeItem.java" afterDir="false" />
-    </list>
+    <list default="true" id="84f67937-8ead-4b5a-b0d2-118fd0bf66a9" name="Changes" comment="Created Gui and fixed the ExpenseTracker.java and created a menu and main for only terminal." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -163,12 +153,25 @@
       <workItem from="1726049547141" duration="134000" />
       <workItem from="1726049714615" duration="86000" />
       <workItem from="1726049842646" duration="2171000" />
-      <workItem from="1726052519935" duration="8482000" />
+      <workItem from="1726052519935" duration="9042000" />
     </task>
+    <task id="LOCAL-00001" summary="Created Gui and fixed the ExpenseTracker.java and created a menu and main for only terminal.">
+      <option name="closed" value="true" />
+      <created>1726061536675</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726061536675</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created Gui and fixed the ExpenseTracker.java and created a menu and main for only terminal." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Gui and fixed the ExpenseTracker.java and created a menu and main for only terminal." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
