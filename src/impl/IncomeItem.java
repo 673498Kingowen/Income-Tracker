@@ -37,6 +37,6 @@ public class IncomeItem {
 
     @Override
     public String toString() {
-        return String.format("Income: ID= %d%nDescription= %s%nAmount= %.2f", incomeId, description, amount);
+        return String.format("IncomeID = %d%nDescription = %s%nAmount = %.2f", incomeId, description, amount);
     }
 }

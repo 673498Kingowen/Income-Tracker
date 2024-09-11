@@ -35,8 +35,9 @@ public class ExpenseItem {
         this.amount = amount;
     }
 
+
     @Override
     public String toString() {
-        return String.format("Expense: ExpenseId= %d%nDescription= %s%nAmount= %.2f", expenseId, description, amount);
+        return String.format("ExpenseID = %d%nDescription= %s%nAmount = %.2f", expenseId, description, amount);
     }
 }
