@@ -109,7 +109,6 @@ public class ExpenseTracker implements ExpenseTrackerInterface{
         return expenses.get(expenseId);  
     }
 
-    // Search by description (partial match)
     public List<ExpenseItem> searchByDescription(String description) {
         return expenses.values().stream()
                 .filter(expense -> expense.getDescription().toLowerCase().contains(description.toLowerCase()))
