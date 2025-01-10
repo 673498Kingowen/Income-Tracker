@@ -106,13 +106,13 @@ public class ExpenseTracker implements ExpenseTrackerInterface{
     }
 
     public ExpenseItem searchById(int expenseId) {
-        return expenses.get(expenseId);  // Return the expense if found, otherwise null
+        return expenses.get(expenseId);  
     }
 
     // Search by description (partial match)
     public List<ExpenseItem> searchByDescription(String description) {
         return expenses.values().stream()
                 .filter(expense -> expense.getDescription().toLowerCase().contains(description.toLowerCase()))
-                .collect(Collectors.toList());  // Return a list of matching expenses
+                .collect(Collectors.toList());  
     }
 }
